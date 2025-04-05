@@ -1,0 +1,3 @@
+gender detection = https://www.kaggle.com/datasets/cashutosh/gender-classification-dataset
+age detection = https://www.kaggle.com/datasets/arashnic/faces-age-detection-dataset
+face detection = https://www.kaggle.com/datasets/vasukipatel/face-recognition-dataset

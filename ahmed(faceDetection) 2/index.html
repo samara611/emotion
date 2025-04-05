@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header" >
+        <div id="holder" class="container ">
+            <span id="logo">
+                <a href="/pages/HomePage.html" >
+                    <img id="logo-img" src='/images/logo-1.png' class="" alt="" />
+                    <p>Recony</p>
+                </a>
+            </span>
+            <span id="nav-links" >
+                <div id="menu-links" >
+                    <a href="/pages/LoginPage.html" >Login</a>
+                </div>
+            </span>
+        </div>
+    </header>
+    <main id="main">
+        <div id="container">
+            <video id="video" width="640" height="480" autoplay muted></video>
+            <span id="sad" style="display: none;">sad:</span>
+            <span id="angry" style="display: none;">angry:</span>
+            <div id="Qsholder">
+                <p id="question"> </p>
+                <div id="answers">
+                    <a id="ok" href="#">Ok</a>
+                    <a href="">No</a>
+                </div>
+            </div>
+            <canvas id="overlay" width="640" height="480"></canvas>
+        </div>
+    </main>
+ </body>   
+</html>

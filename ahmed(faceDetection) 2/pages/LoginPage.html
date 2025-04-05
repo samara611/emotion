@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/headerStyle.css">
+    <link rel="stylesheet" href="../styles/loginPage.css">
+</head>
+<body>
+    <header id="main-header" >
+        <div id="holder" class="container">
+            <span id="logo" >
+                <a href="/pages/HomePage.html" >
+                    <img id="logo-img" src='../images/logo-1.png'  alt="" />
+                    <p>Recony</p>
+                </a>
+            </span>
+            <span id="nav-links">
+                <div id="menu-links" >
+                    <a href="/pages/LoginPage.html" >Login</a>
+                </div>
+            </span>
+        </div>
+    </header>
+    <main>
+        <form id="form">
+            <h1 >LogIn With Your Account</h1>
+            <label >
+                    <label >Email :</label>
+                    <input id="email" type="email" />
+            </label>
+            <label>
+                    <label >Password :</label>
+                    <input id="pass" type="password" />
+            </label>
+            <p id="email-error"></p>
+            <p id="pass-error"></p>
+            <div >
+                <span>Dont Have Account ? <a href="./registerPage.html">Create Account</Link></span>
+                <button type="submit">
+                    LogIn
+                </button>
+            </div>
+            <p id="success-msg"></p>
+        </form>
+        
+    </main>
+</body>
+<script src="./loginpage.js"></script>
+</html>
